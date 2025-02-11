@@ -11,7 +11,6 @@ const ExerciseList = () => {
 
   return (
     <Box>
-      {/* <HeroBanner /> */}
       <SearchExercises
         setExercises={setExercises}
         bodyPart={bodyPart}

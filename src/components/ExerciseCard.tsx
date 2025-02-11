@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 
 import { Button, Stack, Typography } from "@mui/material";
+
 import { ExerciseDetail } from "../types/exerciseTypes";
 
 const ExerciseCard = ({ exercise }: { exercise: ExerciseDetail }) => (

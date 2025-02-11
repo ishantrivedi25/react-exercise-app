@@ -64,7 +64,6 @@ const Detail = ({ exerciseDetail }: DetailProps) => {
             </Typography>
           ))}
         </Stack>
-        {/* </Typography> */}
         <Typography
           sx={{ fontSize: { lg: "44px", xs: "25px" } }}
           fontWeight={700}

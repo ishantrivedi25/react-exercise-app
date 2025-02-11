@@ -10,6 +10,7 @@ interface ExerciseVideosProps {
 
 const ExerciseVideos = (props: ExerciseVideosProps) => {
   const { name, exerciseVideos } = props;
+
   if (!exerciseVideos.length) return <Loader />;
 
   return (
