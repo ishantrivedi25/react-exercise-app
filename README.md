@@ -1,50 +1,85 @@
-# React + TypeScript + Vite
+# 🏋️‍♂️ React Exercise App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**A powerful and intuitive exercise application providing detailed exercise insights, search functionality, and a responsive user experience.**
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- 🔍 **Exercise Search** – Find exercises by name, target muscle, equipment, or body part with pagination.
+- 📋 **Detailed Exercise Information** – Includes body part, target muscles, secondary muscles, required equipment, and step-by-step instructions.
+- 🎥 **Exercise Videos** – Learn visually with integrated video demonstrations.
+- 🔄 **Similar Exercise Suggestions** – Discover alternative workouts based on selected exercises.
+- 📜 **Scroll Components** – Smooth scrolling experience for enhanced usability.
+- ⚡ **Responsive Footer** – Well-designed footer for better navigation.
+- 🎨 **Modern & Responsive UI** – Optimized for all screen sizes with an engaging design.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+---
 
-- Configure the top-level `parserOptions` property like this:
+## 🛠️ Tech Stack
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+- **Frontend:** React, Material UI, TypeScript
+- **API & Data:** Rapid APIs
+
+---
+
+## 📦 Installation & Setup
+
+### 1️⃣ Clone the repository
+
+```sh
+git clone https://github.com/ishantrivedi25/react-exercise-app.git
+cd react-exercise-app
 ```
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+### 2️⃣ Install dependencies
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
+```sh
+npm install
 ```
+
+### 3️⃣ Set up environment variables
+
+Create a `.env` file and add the required variables:
+
+```sh
+VITE_RAPID_API_KEY=your-api-key
+```
+
+### 4️⃣ Start the project
+
+```sh
+npm run dev
+```
+
+---
+
+## 🧑‍💻 Contributing
+
+Contributions are **welcome**!  
+Follow these steps to contribute:
+
+1. **Fork the repo**
+2. **Create a feature branch** (`git checkout -b feature-name`)
+3. **Commit your changes** (`git commit -m "feat: add new feature"`)
+4. **Push to your branch** (`git push origin feature-name`)
+5. **Open a pull request**
+
+---
+
+## 🐞 Issues & Feedback
+
+Found a bug? Have a feature request?  
+📩 **Open an issue** [here](https://github.com/ishantrivedi25/react-exercise-app/issues).
+
+---
+
+## 📜 License
+
+This project is licensed under the **MIT License**.
+
+---
+
+## 🌟 Show Your Support
+
+If you like this project, **give it a star ⭐ and follow** for more updates!
